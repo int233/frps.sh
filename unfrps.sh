@@ -2,7 +2,7 @@
 # 停止frps
 sudo systemctl stop frps && \
 # 删除frps
-rm -rf /usr/local/frps && \
+rm -rf /usr/local/frp && \
 # 删除frps.service
 rm -rf /lib/systemd/system/frps.service && \
 sudo systemctl daemon-reload && \
